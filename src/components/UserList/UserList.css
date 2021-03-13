@@ -1,0 +1,21 @@
+.userItem {
+    font-size: large;
+    overflow: hidden;
+    border-bottom: 1px gray solid;
+    padding: 15px;
+}
+.userItem img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    
+}
+.userItem-name{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.userItem-header{
+    display: inline-block;
+}

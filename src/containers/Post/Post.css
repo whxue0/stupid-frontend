@@ -1,0 +1,59 @@
+.add-post {
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    width: 50px;
+    padding: 20px;
+}
+
+.post-container {
+    padding: 15px 5px 25px 5px;
+    border-bottom: 1px dashed black;
+}
+.post-header {
+    overflow: auto;
+    padding: 5px;
+    padding-bottom: 0;
+}
+.post-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.post-nickname {
+    display: inline-block;
+    vertical-align: top;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.post-time {
+    padding-top: 10px;
+    padding-right: 30px;
+    float: right;
+    font-size: small;
+    color:rgb(121, 121, 121);
+}
+
+.photo-item {
+    width: 100%;
+}
+.lazyload-wrapper {
+    width: 30%;
+    padding: 3px;
+}
+.post-body {
+    padding: 0 10px 0 10px;
+}
+.post-content{
+    overflow-wrap: break-word;
+    font-size: medium;
+    padding: 0 30px 5px 30px ;
+}
+
+.photo-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

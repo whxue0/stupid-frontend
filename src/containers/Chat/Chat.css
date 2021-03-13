@@ -1,0 +1,72 @@
+.arrow-left{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 15px transparent solid;
+    border-right: 15px #FFF solid;
+    border-top: 15px #FFF solid;
+    width: 30px;
+    height: 30px;
+    margin-right: -10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border-top-left-radius: 0%;
+    vertical-align: top;
+}
+.bubble-left{
+    padding: 15px;
+    border-radius: 5%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #FFF;
+    overflow-wrap:break-word;
+    max-width: 70%;
+}
+
+.talk-box{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: medium;
+    padding: 10px;
+    padding-right:20px;
+    overflow: auto;
+}
+.talk-box img {
+    vertical-align: top;
+    width: 40px;
+    height: auto;
+    padding-left: 10px;
+}
+
+.right-avatar-img {
+    float: right;
+    vertical-align: top;
+    width: 40px;
+    max-height: 50px;
+}
+
+.arrow-right{
+    float: right;
+    box-sizing: border-box;
+    border: 15px transparent solid;
+    border-left: 15px #9eea6a solid;
+    border-top: 15px #9eea6a solid;
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border-top-left-radius: 0%;
+    vertical-align: top;
+}
+
+.bubble-right{
+    float: right;
+    padding: 15px;
+    border-radius: 5%;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #9eea6a;
+    overflow-wrap:break-word;
+    max-width: 60%;
+}
