@@ -39,6 +39,7 @@ class Personal extends React.Component {
         onPress: ()=> {
           Cookies.remove('userid')
           this.props.resetUser()
+          window.location.reload() //强制刷新页面
         }
       }
     ])

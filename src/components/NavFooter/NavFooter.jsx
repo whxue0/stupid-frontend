@@ -5,7 +5,6 @@ import {withRouter} from 'react-router-dom'
 
 const Item = TabBar.Item
 
-// 希望在非路由组件中使用路由库的api?
 // withRoute()
 class NavFooter extends Component {
 

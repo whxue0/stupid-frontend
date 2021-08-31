@@ -74,6 +74,7 @@ class Login extends Component {
                         <Button  type="primary" onClick={this.login}>登 录</Button>
                         <WhiteSpace/>
                         <Button onClick={this.toRegister}>还没有账号</Button>
+                        <p>测试账号：123  密码：123</p>
                     </List>
                 </WingBlank>
             </div>
